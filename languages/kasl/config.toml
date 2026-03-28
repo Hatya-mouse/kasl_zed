@@ -1,0 +1,4 @@
+name = "KASL"
+grammar = "kasl"
+path_suffixes = ["kasl"]
+line_comments = ["// "]
