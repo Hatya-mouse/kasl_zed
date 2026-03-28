@@ -6,11 +6,15 @@
 ] @keyword
 
 ; Types
-(type_name (identifier) @type)
+(_ type_name: (identifier) @type)
+(_ type_name: (_ (identifier)) @type)
 
 ; Functions
-(func_decl_stmt (identifier) @function)
-(func_call (identifier) @function)
+(func_decl_stmt func_name: (identifier) @function)
+(func_param func_arg_label: (identifier) @label)
+(func_param func_arg_name: (identifier) @variable)
+(func_call func_name: (identifier) @function)
+(func_call_arg func_arg_label: (identifier) @label)
 
 ; Literals
 (integer) @number
@@ -18,10 +22,16 @@
 (boolean) @boolean
 
 ; Identifiers
-(identifier) @variable
+(_ var_name: (identifier) @variable)
+
+; Import Path
+(import_path) @string
 
 ; Operators
 (operator) @operator
+
+; Attributes
+(input_attr input_attr_name: (identifier) @attribute)
 
 ; Comments
 (comment) @comment

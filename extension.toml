@@ -8,4 +8,4 @@ repository = "https://github.com/hatya-mouse/kasl_zed"
 
 [grammars.kasl]
 repository = "https://github.com/hatya-mouse/tree-sitter-kasl"
-rev = "c86f1725e53969211d38dfaade922b68f684e0bb"
+rev = "9b2a3dfbd476325fb570fa60240b518606307e30"

@@ -1,3 +1,2 @@
-(array "]" @end) @indent
-(object "}" @end) @indent
-(object ")" @end) @indent
+(bracketed_token "]" @end) @indent
+(parenthesized_token ")" @end) @indent
