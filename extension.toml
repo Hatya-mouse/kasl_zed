@@ -4,7 +4,7 @@ version = "0.0.1"
 schema_version = 1
 authors = ["Shuntaro Kasatani <shuntar30@gmail.com>"]
 description = "A KASL language support for Zed."
-repository = "https://github.com/hatya-mouse/kasl_zed"
+repository = "https://github.com/hatya-mouse/kasl-zed"
 
 [grammars.kasl]
 repository = "https://github.com/hatya-mouse/tree-sitter-kasl"
